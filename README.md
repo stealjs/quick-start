@@ -15,6 +15,7 @@ Clone the repo to your local machine.
 Install node packages
 
 ```
+> cd quick-start
 > npm install
 ```
 
