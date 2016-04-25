@@ -4,7 +4,7 @@ Go to [StealJS.com](http://stealjs.com/) for step-by-step instructions to create
 
 
 ## Instructions
-Prerequities: Ensure [Node.js](http://nodejs.org/) along with NPM and [grunt-cli](http://gruntjs.com/getting-started) are properly installed. You will also need a webserver. If you don't have one, you can install this simple command-line [http-server](https://www.npmjs.com/package/http-server).
+Prerequities: Ensure [Node.js](http://nodejs.org/) along with NPM are properly installed. You will also need a webserver. If you don't have one, you can install this simple command-line [http-server](https://www.npmjs.com/package/http-server).
 
 ##### Clone
 Clone the repo.
@@ -22,14 +22,14 @@ Install Node modules
 ```
 
 #### Build
-Run the `grunt build` task to have StealJS collect, minify and concatenate all the required javascript files.
+Run `npm run build` which will create a new folder in the project **dist/**. The dist folder contains everything needed to run your app in production.
 
 ```
-> grunt build
+> npm run build
 ```
 
 ##### Serve
-Spin up your webserver or run `http-server`
+Spin up your webserver or run `http-server`:
 
 ```
 > http-server
