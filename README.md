@@ -12,7 +12,7 @@ Prerequisites:
 
 Clone the repo.
 
-```
+```shell
 git clone git@github.com:stealjs/quick-start.git
 ```
 
@@ -20,7 +20,7 @@ git clone git@github.com:stealjs/quick-start.git
 
 Install Node modules
 
-```
+```shell
 cd quick-start
 npm install
 ```
@@ -29,7 +29,7 @@ npm install
 
 Run the following command to create a new folder in the project called `dist`.
 
-```
+```shell
 npm run build
 ```
 
@@ -39,7 +39,7 @@ The `dist` folder contains everything needed to run your app in production.
 
 Spin up your web server or run `http-server`:
 
-```
+```shell
 http-server
 ```
 
