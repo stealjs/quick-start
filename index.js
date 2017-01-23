@@ -1,4 +1,12 @@
 import "./styles.css";
 import $ from "jquery";
 
-$(document.body).append("<h1>Hello World!</h1>");
+let stealLogo = $('<img>').attr('id', 'logo')
+                          .attr('src', '//stealjs.com/img/steal-landing-page-logo.jpg');
+
+let stealDesc = $('<p>').addClass('quote')
+                        .text('Futuristic JavaScript dependency loader and builder');
+
+$('.container').append(stealLogo)
+               .append(stealDesc)
+               .wrapInner('<div class="content">');
