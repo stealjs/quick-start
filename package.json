@@ -7,12 +7,14 @@
     "build": "steal-tools"
   },
   "steal": {
-    "plugins": ["steal-css"]
+    "plugins": [
+      "steal-css"
+    ]
   },
   "devDependencies": {
     "jquery": "^3.1.1",
-    "steal": "^1.0.11",
+    "steal": "^2.0.0",
     "steal-css": "^1.2.0",
-    "steal-tools": "^1.0.3"
+    "steal-tools": "^2.0.0"
   }
 }
